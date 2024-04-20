@@ -3,83 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-
-        .employee-container {
+        nav {
+            background-color: aqua;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
         }
-
-        .employee {
-            margin: 5px;
-            text-align: center;
-            padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        .nav-logo {
+            display: flex;
+            align-items: center;
         }
-
-        .employee img {
-            width: 300px;
-            height: 300px;
-            border-radius: 10%;
-            object-fit: cover;
-            margin-bottom: 10px;
+        
+        .nav-logo img {
+            width: 60px;
+            height: auto;
+            margin-right: 10px;
         }
-.paytm-logo {
-            width: 30px; /* Adjust the width as needed */
-            height: 30px; /* Adjust the height as needed */
-            position: absolute;
-            bottom: 10px; /* Adjust the position from the bottom */
-            left: 50%; /* Center the logo horizontally */
-            transform: translateX(-50%); /* Center the logo horizontally */
+        
+        .nav-menu {
+            display: flex;
+            align-items: center;
         }
-
+        
+        .nav-menu span {
+            margin-right: 20px;
+        }
+        
+        .nav-menu span:last-child {
+            margin-right: 0;
+        }
     </style>
-    <title>Employee Information</title>
 </head>
 <body>
-
-    <div class="employee-container">
-        <div class="employee">
-            <img src="C:\Users\rakes\Downloads\Facebook_files\Vijay_Shekhar_Sharma_Paytm_96f52579b8.png" alt="Employee 1">
-            <p>Name:Vijay Sekhar Sharma</p>
-            <div class="paytm-logo">
-                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="Paytm Logo">
-            </div>
-             
-            
-             
-            
+    <nav>
+        <div class="nav-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/300px-Xiaomi_logo.svg.png" alt="Xiaomi Logo">
+            <span>Xiaomi</span>
         </div>
-
-        <div class="employee">
-            <img src="C:\Users\rakes\Downloads\Facebook_files\Rectangle_427_637d69bb57.png" alt="Employee 2">
-            <p>Name:Kunal Shah</p>
-            <p>Position:Founder </p>
-            <p>CRED</p>
+        <div class="nav-menu">
+            <span>Store</span>
+            <span>Phone</span>
+            <span>TV & Smart Home</span>
+            <span>TV</span>
+            <span>LifeStyle</span>
         </div>
-
-        <div class="employee">
-            <img src="C:\Users\rakes\Downloads\Facebook_files\amrish_rau_pine_labs_144e5e587c.png" alt="Employee 3">
-            <p>Name:Amrish Rau</p>
-            <p>Position:CEO</p>
-            <p>Pine Labs</p>
-        </div>
-
-        <div class="employee">
-            <img src="C:\Users\rakes\Downloads\Facebook_files\Sampad_swain_Instamojo_f12bf6341e.png" alt="Employee 4">
-            <p>Name:Sampad Swain</p>
-            <p>Position:Co-Founder & CEO</p>
-            <p>instamojo</p>
+    </nav>
+    <div class="ms">
+        <p>Readmi Earphone</p>
+        <button class="button">Click Me</button>
+        <img id="jk" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825746.40119588.png?thumb=1&w=300&f=webp&q=85" alt="Card Image">
+        <h3>449</h3>
+    </div>
+    <div class="ms">
+        <img src="image2.jpg" alt="Card Image">
+        <div class="card-content">
+            <h3>Card 2</h3>
+            <p>This is the content of card 2.</p>
         </div>
     </div>
-
 </body>
 </html>
